@@ -10,6 +10,14 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://convert-values.online/" />
   <link rel="icon" href="/favicon.png">
+  <script>
+  if (location.hostname === "www.convert-values.online") {
+  location.replace("https://convert-values.online" + location.pathname);
+  }
+  if (location.pathname === "/index.html") {
+  location.replace("https://convert-values.online/");
+  }
+  </script>
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
